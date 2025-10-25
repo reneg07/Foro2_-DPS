@@ -2,6 +2,7 @@
   "expo": {
     "name": "loginApp",
     "slug": "loginApp",
+    "owner": "firearcher717",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,9 +10,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
+      "bundleIdentifier": "com.firearcher717.loginapp",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.firearcher717.loginapp",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -27,6 +30,7 @@
     },
     "plugins": [
       "expo-router",
+      "expo-dev-client",
       [
         "expo-splash-screen",
         {
@@ -34,12 +38,16 @@
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
-          "dark": {
-            "backgroundColor": "#000000"
-          }
+          "dark": { "backgroundColor": "#000000" }
         }
       ]
     ],
+    "extra": {
+      "eas": { "projectId": "a9068f10-c1f0-498e-b668-f6dd08f2b943" },
+      "iosClientId": "",
+      "androidClientId": "",
+      "webClientId": "803821575234-c2v1g4ph2cvube13itj48jd5bvin97uf.apps.googleusercontent.com"
+    },
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
