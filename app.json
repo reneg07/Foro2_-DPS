@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "loginApp",
-    "slug": "loginApp",
+    "name": "loginapp",
+    "slug": "loginapp",
     "owner": "firearcher717",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "loginapp",
+    "scheme": "com.firearcher717.loginapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -38,15 +38,29 @@
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
-          "dark": { "backgroundColor": "#000000" }
+          "dark": {
+            "backgroundColor": "#000000"
+          }
         }
       ]
     ],
     "extra": {
-      "eas": { "projectId": "a9068f10-c1f0-498e-b668-f6dd08f2b943" },
-      "iosClientId": "",
-      "androidClientId": "",
-      "webClientId": "803821575234-c2v1g4ph2cvube13itj48jd5bvin97uf.apps.googleusercontent.com"
+      "iosClientId": "706658805587-ef0976ituqkqmal0deacn166v6oe73ls.apps.googleusercontent.com",
+      "androidClientId": "706658805587-t5dkeq48v7f3dclk4a2aoulhh9demtj9.apps.googleusercontent.com",
+      "webClientId": "706658805587-dv0cu3cb2r6p2ri4qf0ukefs0b9paa0b.apps.googleusercontent.com",
+      "firebase": {
+        "apiKey": "AIzaSyAke8Dsa8jnclOhGp6ZQGlGBKFBZUl2AaA",
+        "authDomain": "react-login-app-c114a.firebaseapp.com",
+        "projectId": "react-login-app-c114a",
+        "storageBucket": "react-login-app-c114a.appspot.com",
+        "messagingSenderId": "706658805587",
+        "appId": "1:706658805587:web:308b3ba4ec662e949723a6",
+        "measurementId": "G-GSXVWTMM7N"
+      },
+      "router": {},
+      "eas": {
+        "projectId": "75b958a4-184b-4dc6-8239-e5990a82fb85"
+      }
     },
     "experiments": {
       "typedRoutes": true,
