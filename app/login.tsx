@@ -12,8 +12,10 @@ import {
 } from 'react-native';
 import { useAuth } from '../AuthProvider';
 import { useRouter } from 'expo-router';
+import useGoogleAuth from '../hooks/useGoogleAuth';
 
 export default function LoginScreen() {
+  const { user, error: googleError, googleLoading, signIn: googleSignIn } = useGoogleAuth();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
@@ -84,6 +86,22 @@ export default function LoginScreen() {
           <Text style={styles.buttonText}>Ingresar</Text>
         )}
       </TouchableOpacity>
+
+      <TouchableOpacity
+        style={[styles.button, { backgroundColor: '#DB4437', marginTop: 15 }]}
+        onPress={googleSignIn}
+        disabled={googleLoading}
+      >
+        {googleLoading ? (
+          <ActivityIndicator color="#fff" />
+        ) : (
+          <Text style={styles.buttonText}>Iniciar sesión con Google</Text>
+        )}
+      </TouchableOpacity>
+
+      {googleError && (
+        <Text style={{ color: 'red', marginTop: 10 }}>{googleError}</Text>
+      )}
 
       <TouchableOpacity onPress={() => router.push('/register')}>
         <Text style={styles.footerText}>

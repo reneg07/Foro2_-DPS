@@ -44,8 +44,8 @@
     ],
     "extra": {
       "eas": { "projectId": "a9068f10-c1f0-498e-b668-f6dd08f2b943" },
-      "iosClientId": "",
-      "androidClientId": "",
+      "iosClientId": "803821575234-2c8k11n085spui79bp5nn0h9uljrqovo.apps.googleusercontent.com",
+      "androidClientId": "803821575234-imvqlbp6nj82labgvsnfl6fr431pr889.apps.googleusercontent.com",
       "webClientId": "803821575234-c2v1g4ph2cvube13itj48jd5bvin97uf.apps.googleusercontent.com"
     },
     "experiments": {
