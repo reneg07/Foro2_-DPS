@@ -45,9 +45,9 @@
       ]
     ],
     "extra": {
-      "iosClientId": "706658805587-ef0976ituqkqmal0deacn166v6oe73ls.apps.googleusercontent.com",
-      "androidClientId": "706658805587-t5dkeq48v7f3dclk4a2aoulhh9demtj9.apps.googleusercontent.com",
-      "webClientId": "706658805587-dv0cu3cb2r6p2ri4qf0ukefs0b9paa0b.apps.googleusercontent.com",
+      "iosClientId": "706658805587-2vn94v556j4c4tor7v093uj406g8gbvo.apps.googleusercontent.com",
+      "androidClientId": "706658805587-0hb9ae2fa0ogt5mpl71cvmcfcgjjfc5p.apps.googleusercontent.com",
+      "webClientId": "706658805587-7mmmh12uqfv114ult2qrj2jo0m57le85.apps.googleusercontent.com",
       "firebase": {
         "apiKey": "AIzaSyAke8Dsa8jnclOhGp6ZQGlGBKFBZUl2AaA",
         "authDomain": "react-login-app-c114a.firebaseapp.com",
